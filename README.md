@@ -2,7 +2,7 @@
 
 **AI-powered chatbot that automatically converts your chat commitments into reminders.**
 
----
+
 
 ## Introduction
 
@@ -14,33 +14,33 @@ We lose our focus, and trust is silently eroded.
 
 **ReMindMe** is the tranquility we've been searching for.  
 
-It’s a smart chatbot that doesn’t just listen to your conversations — it understands your intent.  
+It’s a smart chatbot that doesn’t just listen to your conversations. it understands your intent.  
 It works invisibly in the background, automatically creating reminders from your chat promises, ensuring you never miss a beat or break a simple word again.
 
----
+
 
 ## Pain Point / Problem Statement
 
 People make hundreds of small, actionable commitments every day across multiple messaging platforms.  
 
-These small promises are the building blocks of relationships and productivity — yet they are the most challenging to track.  
+These small promises are the building blocks of relationships and productivity, yet they are the most challenging to track.  
 
 Traditional reminder apps demand **manual effort**:  
 you have to stop your conversation, open another app, type out the commitment, and set the time.  
 
 It’s tedious, distracting, and easily skipped in the flow of a fast-moving chat.
 
----
+
 
 ## Unique Value Proposition
 
 **ReMindMe eliminates this friction.**  
 
-It steps into the gap where focus and memory fail, turning spoken intent into actionable, timed reminders — **without you lifting a finger**.  
+It steps into the gap where focus and memory fail, turning spoken intent into actionable, timed reminders **without you lifting a finger**.  
 
 It brings **focus**, **comfort**, and **peace** back to your digital interactions.
 
----
+
 ## Target Users
 
 ### The Busy Professional
@@ -52,7 +52,7 @@ Effortlessly tracking responsibilities and deadlines within group projects on pl
 ### Anyone Seeking Solitude from Distraction
 Individuals who want to stay on top of small promises and maintain their integrity — without the mental labor of managing a separate to-do list.
 
----
+
 
 ## Key Features
 
@@ -64,14 +64,14 @@ Utilizes sophisticated **Natural Language Processing (NLP)** to parse conversati
 Converts detected intent into a **timed reminder**, intelligently suggesting scheduling based on temporal clues (*“tomorrow”*, *“later today”*, *“next week”*).
 
 ### Cross-Platform Compatibility
-Designed to integrate seamlessly with the messaging platforms where modern life happens — initially targeting **WhatsApp**, **Telegram**, and **SMS**.
+Designed to integrate seamlessly with the messaging platforms where modern life happens, initially targeting **WhatsApp**, **Telegram**, and **SMS**.
 
 ### Privacy-Focused Design
 Prioritizes user trust.  
 All message processing is performed in real time and anonymized.  
-No chat content is stored permanently — only structured reminder data (*task, time, recipient*) is retained in the database.
+No chat content is stored permanently, only structured reminder data (*task, time, recipient*) is retained in the database.
 
----
+
 
 ## Technologies Used
 
@@ -87,4 +87,4 @@ Implemented using **Node.js + Express** to manage message flow, handle API calls
 **MongoDB** provides flexible and scalable storage for user IDs, structured reminder objects (task, time), and user preferences.
 
 ###  AI / ML Layer
-A **Python NLP Model** (built with libraries like **spaCy** or **HuggingFace**) serves as the core intelligence — performing intent detection and extracting the task and suggested time from raw text.
+A **Python NLP Model** (built with libraries like **spaCy** or **HuggingFace**) serves as the core intelligence performing intent detection and extracting the task and suggested time from raw text.
