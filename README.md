@@ -88,3 +88,5 @@ Implemented using **Node.js + Express** to manage message flow, handle API calls
 
 ###  AI / ML Layer
 A **Python NLP Model** (built with libraries like **spaCy** or **HuggingFace**) serves as the core intelligence performing intent detection and extracting the task and suggested time from raw text.
+
+link to UI Design:https://www.canva.com/design/DAG4JBW6jgw/-uPZUW__J4OJYQ5fJNogqg/edit?utm_content=DAG4JBW6jgw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
