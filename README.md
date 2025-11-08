@@ -41,3 +41,50 @@ It steps into the gap where focus and memory fail, turning spoken intent into ac
 It brings **focus**, **comfort**, and **peace** back to your digital interactions.
 
 ---
+## Target Users
+
+### The Busy Professional
+Juggling client, colleague, and team chats where critical, low-effort tasks (e.g., sending a link, confirming an appointment) often get lost.
+
+### The Student Coordinator
+Effortlessly tracking responsibilities and deadlines within group projects on platforms like WhatsApp and Telegram.
+
+### Anyone Seeking Solitude from Distraction
+Individuals who want to stay on top of small promises and maintain their integrity — without the mental labor of managing a separate to-do list.
+
+---
+
+## Key Features
+
+### AI Commitment Detection
+Utilizes sophisticated **Natural Language Processing (NLP)** to parse conversational text, identifying commitment phrases and implied tasks  
+(e.g., *“I’ll do X later”*, *“We need to schedule Y”*).
+
+### Automatic Contextual Scheduling
+Converts detected intent into a **timed reminder**, intelligently suggesting scheduling based on temporal clues (*“tomorrow”*, *“later today”*, *“next week”*).
+
+### Cross-Platform Compatibility
+Designed to integrate seamlessly with the messaging platforms where modern life happens — initially targeting **WhatsApp**, **Telegram**, and **SMS**.
+
+### Privacy-Focused Design
+Prioritizes user trust.  
+All message processing is performed in real time and anonymized.  
+No chat content is stored permanently — only structured reminder data (*task, time, recipient*) is retained in the database.
+
+---
+
+## Technologies Used
+
+The design of **ReMindMe** relies on several critical technological layers to ensure reliable commitment detection and delivery:
+
+### Frontend / Interface
+Uses the **WhatsApp Business API** and **Telegram Bot API** as the client-facing layer for receiving user messages and delivering notifications.
+
+### Backend / Orchestration
+Implemented using **Node.js + Express** to manage message flow, handle API calls to the NLP service, and manage database transactions.
+
+###  Database
+**MongoDB** provides flexible and scalable storage for user IDs, structured reminder objects (task, time), and user preferences.
+
+###  AI / ML Layer
+A **Python NLP Model** (built with libraries like **spaCy** or **HuggingFace**) serves as the core intelligence — performing intent detection and extracting the task and suggested time from raw text.
