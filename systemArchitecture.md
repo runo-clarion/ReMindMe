@@ -8,7 +8,7 @@ The system uses a **microservices approach** to separate message handling, intel
 
 This design ensures the service is **lightweight**, **highly scalable**, and **privacy-focused**.
 
----
+
 
 ## Components in Detail
 
@@ -23,7 +23,6 @@ WhatsApp / Telegram Bot APIs
 - Securely receive and validate all incoming messages  
 - Send reminder notifications and simple command responses  
 
----
 
 ### 2. Backend Server (_The Conductor_)
 **Implementation:**  
@@ -34,7 +33,7 @@ Node.js + Express
 - Handles API calls  
 - Serializes raw message text into a structured database object  
 
----
+
 
 ### 3. AI/ML Layer (_The Brain_)
 **Implementation:**  
@@ -45,7 +44,7 @@ Python NLP Service (spaCy or HuggingFace)
 - Extracts key entities: **Task** and **Temporal Trigger**  
 - Returns a structured JSON output  
 
----
+
 
 ### 4. Database (_The Memory_)
 **Implementation:**  
@@ -65,7 +64,7 @@ Cron jobs or serverless functions
 - Polls MongoDB for imminent reminders  
 - Triggers the notification process via the Backend Server  
 
----
+
 
 ## Data Flow: A Real-Time Promise
 
@@ -89,16 +88,16 @@ Cron jobs or serverless functions
    Backend Server uses the Chatbot API to send the reminder notification:  
    _“Reminder: Send that report!”_  
 
----
+
 
 ##  Technical Feasibility & Trust
 
-ReMindMe is built on **mature, publicly available technologies** —  
+ReMindMe is built on **mature, publicly available technologies** 
 such as Bot APIs, Node.js, MongoDB, and modern NLP frameworks like spaCy or HuggingFace.
 
 The **AI/ML Layer** provides the greatest value by accurately detecting nuanced conversational intent.  
 **Privacy** is a core principle — messages are processed and deleted quickly,  
 ensuring a **trustworthy and secure** user experience.
 
----
+Link to Dataflow: https://miro.com/app/board/uXjVJttwZ0I=/
 
